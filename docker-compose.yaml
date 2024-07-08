@@ -1,0 +1,8 @@
+services:
+  mock_ws:
+    container_name: mock_ws
+    build: .
+    volumes:
+      - .:/code
+    ports:
+      - 8000:8000
